@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> {% endcomment %}
+<script src="{% static 'app/js/toolbar.js' %}"></script> 
+<div class="topnav" id="myTopnav">
+    <a href="{% url 'index' %}" class="tool-bar-title">The Philly Forum</a>  
+{% comment %}     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a> {% endcomment %}
+  </div>
+  

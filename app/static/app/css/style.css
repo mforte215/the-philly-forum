@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    min-width: 40%;
+    background-color: white;
+    color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a :active {
+  color: black;
+}
+
+.header-container {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.header-image {
+  width: 100%;
+  height: 12ch;
+}
+
+
+.article-top-image {
+  width: 50%;
+  margin-top: 3ch;
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+
+}
+
+.content-body {
+  width: 75%;
+  margin: 4ch auto 0 auto;
+}
+
+.list-item {
+  padding: 3ch;
+  margin: 10px auto auto auto;
+  border: 3px solid black;
+  transition: transform .2s;
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+  display: inline-flex;
+  width: 100%;
+}
+
+.list-item:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.list-item-image {
+  height: 100px;
+  width: 175px;
+}
+
+.list-item-column-one {
+  width: 200px;
+}
+
+.list-item-column-two {
+  width: 70%;
+  margin: 33px 0 0 0;
+  font-size: larger;
+}
+
+.page-content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.article-container {
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+
+}
+
+.article-title-container {
+  width: 90%;
+  margin: auto;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.article-card {
+border: 1px solid black;
+height: 300px;
+width: 250px;
+padding-bottom: 50px;
+text-align: center;
+border-radius: 10px;
+background-color: white;
+transition: transform .2s;
+overflow: hidden;
+-webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+.article-card:hover {
+  transform: scale(1.1);
+}
+
+.card-image {
+  width: 250px;
+  height: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.article-card-link {
+  margin-top: 5px;
+} 
+
+.log-block {
+  width: 30%;
+  margin: 10% 20% 0% 35%;
+  z-index: -100;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+    box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+    color: white;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 15px;
+  border-bottom: 5px solid greenyellow;
+  padding-top: 15px;
+}
+
+.wrapper a {
+  margin-top: 5px;
+  text-decoration: none;
+  background: none;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+
+.form-container {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+/* desktop Thread List */
+.header-title {
+  width: 60%;
+  margin: auto;
+}
+
+.thread-section {
+  width: 80%;
+  margin: auto auto 5% 10%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+.thread-title-column {
+  width: 70%;
+
+}
+
+.thread-date-column {
+  text-align: center;
+  width: 25%;
+}
+
+
+.thread-reply-count {
+  text-align: center;
+}
+
+.table-rows-thread td {
+  border-bottom: 5px solid black;
+  border-collapse: collapse;
+}
+
+.create-discussion-area {
+  width: 90%;
+  margin-right: 10%;
+  display: inline-block;
+}
+
+.create-discussion-link {
+  float: right;
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(0, 5, 148);
+  color: white;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+.header-title-section {
+  width: 100%;
+  display: inline-flex;
+}
+
+.section-header-one {
+  width: 33%;
+}
+
+.section-header-two {
+  width: 33%;
+  font-size: x-large;
+}
+
+.section-header-three {
+  width: 33%;
+  padding: 35px;
+  
+}
+
+.create-section-header-one {
+  width: 33%;
+}
+
+.create-section-header-two {
+  width: 43%;
+  font-size: x-large;
+}
+
+.create-section-header-three {
+  width: 23%;
+  padding: 35px;
+  
+}
+
+.create-discussion-section {
+  width: 40%;
+  margin: 3% 30% 5% 30%;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+  
+}
+
+.create-discussion-title-input input {
+  width: 50%;
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+.create-discussion-submit-input {
+  text-decoration: none;
+  background: none;
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5%;
+  
+}
+
+.create-discussion-textarea-input {
+  margin-right: 5%;
+}
+
+.create-discussion-submit-container {
+  text-align: center;
+  
+}
+
+
+.detail-section-header-one {
+  width: 15%;
+}
+
+.detail-section-header-two {
+  width: 70%;
+  font-size: x-large;
+  text-align: center;
+}
+
+.detail-section-header-three {
+  width: 15%;
+  padding: 35px;
+  
+}
+
+/* Desktop Detail */
+.detail-title {
+  width: 60%;
+  margin: auto;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.detail-content {
+  width: 70%;
+  margin: 3% 15% 5% 15%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+.detail-snippet {
+  text-align: center;
+  margin: auto;
+  font-style: italic;
+}
+
+.detail-image-container {
+  width: 100%;
+}
+
+.detail-image {
+  width: 100%;
+  height: 400px;
+}
+
+.thread-detail {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+  box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+}
+
+
+/* Profile CSS */
+
+.profile-display {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.profile-split-display {
+  width: 40%;
+  margin-left: 5%;
+  border: 5px solid black;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.profile-split-item-container {
+  width: 100%;
+  display: inline-flex;
+  border-bottom: 3px solid black;
+  margin-bottom: 5px;
+}
+
+.profile-split-item-one {
+  width: 60%;
+}
+
+.profile-split-item-two {
+  width: 30%;
+  text-align: right;
+}
+
+.profile-split-item-two-link {
+  color: red;
+}
+
+.delete-discussion-submit-input {
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.delete-thread-confirm-container {
+  width: 80%;
+  margin: 7% 10% 0% 10%;
+  text-align: center;
+}
+
+.fixed-form-field-delete {
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+  font: inherit;
+}
+
+.fixed-form-field-delete :active {
+  border: none;
+}
+
+
+/* Mobile Settings */
+  
+  @media only screen and (max-width: 467px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      
+    }
+    .header-container {
+      font-size: larger;
+    }
+
+    .list-item {
+      padding: 1ch;
+      border: 3px solid black;
+      transition: transform .2s;
+      box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+    }
+
+    .list-item-column-one {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .list-item-column-two {
+      margin: 0;
+      font-size: inherit;
+    }
+
+    .article-container {
+      margin: 0 0 0 7%;
+    }
+
+    .article-top-image {
+      width: 75%;
+    }
+
+    .content-body img {
+      width: 75%;
+    }
+
+    .article-title {
+      font-size: larger;
+    }
+
+
+    
+  }

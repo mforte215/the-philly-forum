@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>The Philly Forum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="page-content">
+    {% include "app/toolbar.html" %}
+    {% block content%}{% endblock %}
+    </div>
+</body>
+</html>

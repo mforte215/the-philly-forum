@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content%}
+<div class="header-container">
+{% if article %}
+<img src="{{article.header_image_url}}" class="article-top-image" />
+<div class="article-title-container">
+<h1 class="article-title">{{article.title}}</h1>
+</div>
+</div>
+<div class="content-body" >
+    {{article.content|safe}}
+</div>
+{% endif %}
+
+{% endblock %}
